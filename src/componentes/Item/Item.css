@@ -1,5 +1,5 @@
 .cardProducto {
-    background-color: #fff;
+    background-color:#e9ff70;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 15rem;
@@ -17,10 +17,10 @@
   
   .imgProducto {
     width: 150px;
-    height: 150px; /* Ajusta el tamaño para una relación de aspecto adecuada */
-    object-fit: cover; /* Mejora el recorte de la imagen */
-    border-radius: 10px; /* Añade bordes redondeados a la imagen */
-    margin-bottom: 1rem; /* Espacio entre la imagen y el contenido de texto */
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin-bottom: 1rem; 
   }
   
   h3 {

@@ -20,7 +20,7 @@ p {
 
 
 .miBtn {
-    background-color: #c1101a;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -33,5 +33,5 @@ p {
   }
   
   .miBtn:hover {
-    background-color: #a10814;
+    background-color: gray;
   }

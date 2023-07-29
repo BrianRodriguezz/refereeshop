@@ -3,7 +3,7 @@ import ItemCount from '../ItemCount/ItemCount';
 import { Link } from 'react-router-dom';
 import './ItemDetail.css'
 
-//Primer paso: IMPORTEMOS
+
 
 import { CarritoContext } from '../../context/CarritoContext';
 import { useContext } from 'react';
@@ -30,7 +30,7 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
       <h2>Nombre: {nombre} </h2>
       <h3>Precio: {precio} </h3>
       <h3>ID: {id} </h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime numquam dolore natus ipsa molestiae facere assumenda. Voluptas omnis magni saepe, consequatur atque dolorem eius ipsum est quis porro neque quibusdam!</p>
+      <p>Nueva camiseta árbitro. Temporada 2023, Indumentaria genérica deportiva. Ofrece comodidad para la realización de todo tipo de deportes.</p>
       <img src={img} alt={nombre} />
 
 
